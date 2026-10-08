@@ -1,24 +1,26 @@
 {
-  "name": "sample_mern_app",
+  "name": "sample-mern-project",
   "version": "1.0.0",
-  "description": "HR management",
-  "homepage": "https://github.com/sreejagoud2007/sample_mern_app#readme",
+  "description": "hrmanagement",
+  "homepage": "https://github.com/jahnavipinnaka/Sample-Mern-Project1#readme",
   "bugs": {
-    "url": "https://github.com/sreejagoud2007/sample_mern_app/issues"
+    "url": "https://github.com/jahnavipinnaka/Sample-Mern-Project1/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sreejagoud2007/sample_mern_app.git"
+    "url": "git+https://github.com/jahnavipinnaka/Sample-Mern-Project1.git"
   },
   "license": "ISC",
-  "author": "sreeja",
+  "author": "Jahnavi Pinnaka",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "express": "^5.2.1",
-    "mongodb": "^7.6.0"
+    "mongodb": "^7.6.0",
+    "mongoose": "^9.10.1"
   }
 }
