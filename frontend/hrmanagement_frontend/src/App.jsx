@@ -3,14 +3,23 @@ import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Services from './pages/Services'
+import {Routes,Route} from 'react-router-dom'
 
 function App() {
 
   return (
     <div>
       <Header/>
-    <h1>My first Website</h1>
-    <h2>Created by Jahnavi Pinnaka</h2>
+       <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/" about={<About></About>}></Route>
+        <Route path="/" contact={<Contact></Contact>}></Route>
+       </Routes>
+    
     <Footer/>
     </div>
   )

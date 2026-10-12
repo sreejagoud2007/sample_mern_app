@@ -2,16 +2,16 @@
   "name": "sample-mern-project",
   "version": "1.0.0",
   "description": "hrmanagement",
-  "homepage": "https://github.com/jahnavipinnaka/Sample-Mern-Project1#readme",
+  "homepage": "https://github.com/sreejagoud2007/sample_mern_app#readme",
   "bugs": {
-    "url": "https://github.com/jahnavipinnaka/Sample-Mern-Project1/issues"
+    "url": "https://github.com/sreejagoud2007/sample_mern_app/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jahnavipinnaka/Sample-Mern-Project1.git"
+    "url": "git+https://github.com/sreejagoud2007/sample_mern_app.git"
   },
   "license": "ISC",
-  "author": "Jahnavi Pinnaka",
+  "author": "sreeja",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
