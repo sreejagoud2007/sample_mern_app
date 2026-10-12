@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header/>
     <h1>My first Website</h1>
-    <h2>Created by Sreeja</h2>
+    <h2>Created by Jahnavi Pinnaka</h2>
     <Footer/>
     </div>
   )
