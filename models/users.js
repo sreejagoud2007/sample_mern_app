@@ -1,5 +1,5 @@
 let mongoose=require('mongoose');
-let userschema= mongoose.Schema({
+let userschema=mongoose.Schema({
     name:String,
     email:{
         type:String,
@@ -11,5 +11,5 @@ let userschema= mongoose.Schema({
         enum:["HR","EMPLOYEE"]
     }
 })
-let users = mongoose.model('users',userschema);
+let users=mongoose.model('users',userschema);
 module.exports={users}

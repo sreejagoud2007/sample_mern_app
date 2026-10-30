@@ -1,11 +1,11 @@
 import img1 from '../assets/img1.jpg'
-import img2 from '../assets/img2.jpg'
+import img2 from '../assets/img2.avif'
 import img3 from '../assets/img3.jpg'
 
 function Home(){
-    return(
-        <div>
-            <div id="carouselExample" class="carousel carousel-overlay slide">
+   return(
+    <div>
+       <div id="carouselExample" class="carousel carousel-overlay slide">
   <div class="carousel-inner rounded-5">
     <div class="carousel-item active">
       <img src={img1} class="d-block w-100" alt="..."></img>
@@ -35,7 +35,7 @@ function Home(){
     </div>
   </div>
 </div>
-        </div>
-    )
+    </div>
+   )
 }
 export default Home
